@@ -1,0 +1,8 @@
+"Resource: /Users/helen/Dropbox/sem2/CS51/cs51psets/4/tests.ml": "\011­h±wñ\135\155Û³şPj\006\003v"
+"Rule: ocaml: ml -> cmo & cmi (%=tests )": "²i\149_\137.\n1Ì¯):\146çHø"
+"Resource: /Users/helen/Dropbox/sem2/CS51/cs51psets/4/ps4.ml": "mééõ#*\028ç×ÎX\157\132m7d"
+"Rule: ocaml: cmo* -> byte (%=ps4 )": "Ú\031\007\014ÿ'óÔs\133y\129\022Şù\026"
+"Rule: ocaml dependencies ml (%=ps4 )": "pº×°É¡iZÂ\137Dï|g3\141"
+"Rule: ocaml dependencies ml (%=tests )": "[ÊVŞÙÛ)Ôõxş\028#ßS3"
+"Rule: ocaml: ml -> cmo & cmi (%=ps4 )": "©ÕR~W\128\148\031r\000\159×\014æwï"
+"Rule: ocaml: cmo* -> byte (%=tests )": "\149ï\154_)_\019\130ÿqâì\138\012|é"

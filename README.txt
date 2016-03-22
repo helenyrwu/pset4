@@ -1,0 +1,1 @@
+These files are from my latest problem set for CS 51, which is functional programming taught in OCaml. Its purpose was to drive home concepts such as abstraction and modules using data structures and functions within them.

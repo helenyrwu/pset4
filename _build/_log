@@ -1,0 +1,12 @@
+### Starting build.
+# Target: tests.ml.depends, tags: { extension:ml, file:tests.ml, ocaml, ocamldep, quiet, strict-sequence, thread, traverse, use_str, use_unix, warn(A-4-33-40-41-42-43-34-44) }
+/Users/helen/.ocamlbrew/ocaml-4.02.2/bin/ocamldep.opt -modules tests.ml > tests.ml.depends # cached
+# Target: ps4.ml.depends, tags: { extension:ml, file:ps4.ml, ocaml, ocamldep, quiet, strict-sequence, thread, traverse, use_str, use_unix, warn(A-4-33-40-41-42-43-34-44) }
+/Users/helen/.ocamlbrew/ocaml-4.02.2/bin/ocamldep.opt -modules ps4.ml > ps4.ml.depends # cached
+# Target: ps4.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:ps4.cmo, file:ps4.ml, implem, ocaml, quiet, strict-sequence, thread, traverse, use_str, use_unix, warn(A-4-33-40-41-42-43-34-44) }
+/Users/helen/.ocamlbrew/ocaml-4.02.2/bin/ocamlc.opt -c -thread -strict-sequence -w A-4-33-40-41-42-43-34-44 -o ps4.cmo ps4.ml # cached
+# Target: tests.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:tests.cmo, file:tests.ml, implem, ocaml, quiet, strict-sequence, thread, traverse, use_str, use_unix, warn(A-4-33-40-41-42-43-34-44) }
+/Users/helen/.ocamlbrew/ocaml-4.02.2/bin/ocamlc.opt -c -thread -strict-sequence -w A-4-33-40-41-42-43-34-44 -o tests.cmo tests.ml # cached
+# Target: tests.byte, tags: { byte, dont_link_with, extension:byte, file:tests.byte, link, ocaml, program, quiet, strict-sequence, thread, traverse, use_str, use_unix, warn(A-4-33-40-41-42-43-34-44) }
+/Users/helen/.ocamlbrew/ocaml-4.02.2/bin/ocamlc.opt unix.cma str.cma -thread threads.cma ps4.cmo tests.cmo -o tests.byte # cached
+# Compilation successful.
